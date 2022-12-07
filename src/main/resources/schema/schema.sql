@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS exchange_rate;
+CREATE TABLE exchange_rate (
+	ID INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	origin_currency VARCHAR(20) NOT NULL,
+	final_Currency VARCHAR(20) NOT NULL,
+	date VARCHAR(50) NOT NULL,
+	value VARCHAR(50) NOT NULL
+);

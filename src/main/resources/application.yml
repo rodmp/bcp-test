@@ -1,0 +1,15 @@
+server:  port: 8085
+
+spring:
+  h2:
+    console:
+      enabled: true   
+
+  r2dbc:
+    url: r2dbc:h2:mem:///test
+    username: sa
+    password: 
+  sql:
+    init:
+      mode: always
+
